@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 30px;
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+}
+
+.top-i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  border-radius: 0 60px 60px 0;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+input {
+  display: flex;
+  margin: auto;
+  color: #000;
+  font-size: 19px;
+  width: 500px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  border: 2px solid blue;
+  padding-left: 4px;
+}
+
+input:focus {
+  outline: 0;
+  border: 2px solid #d30001;
+}
+
+input:hover {
+  border: 2px solid #d30001;
+  transition: 0.5s;
+}
+
+.title-countries p {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.container-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to top, #006eff, #ececec);
+  border-radius: 8px;
+  width: 250px;
+  height: 300px;
+  margin: 0px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.card middle{
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
